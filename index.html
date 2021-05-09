@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>Responsive Sturbucks Website Landing Page</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="#"><img src="img/logo.png" class="logo" alt="logo-starbucks"></a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="navigation-bar">
+        <li class="bar-elements"><a href="#" class="bar-link">Home</a></li>
+        <li class="bar-elements"><a href="#" class="bar-link">Menu</a></li>
+        <li class="bar-elements"><a href="#" class="bar-link">Wat's New</a></li>
+        <li class="bar-elements"><a href="#" class="bar-link">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <p>
+          <h2 class="headline">It&rsquo;s not just Cofee </h2>
+        </p>
+        <p>
+          <h2 class="headline">It's<span class="coffee-name"> Starbucks</span></h2>
+        </p>
+        <p class="content-text">
+          Every day, we&nbsp;go&nbsp;to&nbsp;work hoping to&nbsp;do&nbsp;two things: share great coffee with our friends and help make the world
+          a&nbsp;little better. It&nbsp;was true when the first Starbucks opened in&nbsp;1971, and it&rsquo;s just as&nbsp;true today.
+        </p>
+        <a href="#" class="content-link">Learn more</a>
+      </div>
+      <div class="imgBox">
+        <img src="img/img1.png" alt="cocktaile" class="starbucks">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li class="cocktail-elements"><img src="img/thumb1.png"
+          onclick="imgSlider('img/img1.png');changeCircleColor('#017143')" class="link-cocktail" alt="green-cocktaile">
+      </li>
+      <li class="cocktail-elements"><img src="img/thumb2.png"
+          onclick="imgSlider('img/img2.png');changeCircleColor('#eb7495')" class="link-cocktail" alt="white-cocktaile">
+      </li>
+      <li class="cocktail-elements"><img src="img/thumb3.png"
+          onclick="imgSlider('img/img3.png');changeCircleColor('#d752b1')" class="link-cocktail" alt="pink-cocktaile">
+      </li>
+    </ul>
+    <ul class="social-media">
+      <li class="social-media-elements"><a href="#"><img src="img/facebook.png" alt="facebook"
+            class="social-media-icon"></a></li>
+      <li class="social-media-elements"><a href="#"><img src="img/twitter.png" alt="twitter"
+            class="social-media-icon"></a></li>
+      <li class="social-media-elements"><a href="#"><img src="img/instagram.png" alt="instagram"
+            class="social-media-icon"></a></li>
+    </ul>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
